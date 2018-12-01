@@ -1,0 +1,66 @@
+<!DOCTYPE <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+  
+    <title>Minecraft Studio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    
+    <style>
+  .fundo
+  {
+background-image: url('cadastro.jpeg');
+background-repeat: no-repeat;
+background-size: 100%;
+  }
+
+  .logo{
+    margin-top: 20px;
+    font-size: 60px;
+    text-align: center;
+    margin-bottom:350px;
+  }
+  .texto{
+    color: green;
+  }
+ 
+    </style>
+</head>
+<body class="fundo">
+<div class="container">
+
+  <div class=" col-md-12 logo">
+    <h1> CADASTRO </h1>
+</div>
+ 
+
+    <div class="col-md-12">
+        <form class="texto">
+                <div class="form-group">
+                  <label >Cliente</label>
+                  <input type="text" class="form-control col-md-5" id="cliente"  placeholder="Digite a empresa" required/>
+                 
+                </div>
+                <div class="form-group">
+                  <label >Projeto</label>
+                  <input type="text" class="form-control col-md-5" id="projeto" placeholder="Digite o Projeto" required/>
+                </div>
+                <div class="form-group">
+                    <label >Colaborador</label>
+                    <input type="text" class="form-control col-md-5" id="colaborador" placeholder="Digite o colaborador" required/>
+                  </div>
+                  <div class="form-group">
+                      <label >Competência</label>
+                      <input type="number" class="form-control col-md-1" id="competencia" placeholder="1-5">
+                    </div>
+              <center> <button type="submit" class="btn btn-primary">Cadastrar</button>
+                <a class="btn btn-warning"  href="index.html" role="button" type="submit">Voltar</a>
+              </center> 
+              </form>
+
+</div>
+</div>
+    
+</body>
+</html>
